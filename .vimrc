@@ -16,8 +16,12 @@ set number
 " make tabs as wide as two spaces
 set tabstop=2
 
+" tab replaced by spaces
+set expandtab
+
 " Always show the status line at the bottom, even if you only have one window open.
 set laststatus=2
+
 
 " The backspace key has slightly unintuitive behavior by default. For example,
 " by default, you can't backspace before the insertion point set with 'i'.
