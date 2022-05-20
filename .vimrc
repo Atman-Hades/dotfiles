@@ -1,3 +1,10 @@
+" no backup files
+set nobackup
+
+" no swapfile
+set noswapfile
+
+
 " not vi compatible
 set nocompatible  
 
@@ -73,3 +80,15 @@ inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
+execute pathogen#infect()
+
+" systastic recommanded settings
+" set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
+" 
+" let g:syntastic_always_populate_loc_list = 1
+" let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_wq = 0
+" 

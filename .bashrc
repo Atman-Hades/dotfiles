@@ -118,3 +118,8 @@ set -o vi
 # alias
 alias la='ls -a'
 alias lla='ls -al'
+alias ll='ls -l'
+alias showpdf='okular'
+alias pdfviewer='okular'
+alias showgraph='gwenview'
+alias graphviewer='gwenview'
